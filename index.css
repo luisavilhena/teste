@@ -1,0 +1,679 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   */
+
+   html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, label, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, embed, 
+   figure, figcaption, footer, header, hgroup, 
+   menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+   	margin: 0;
+   	padding: 0;
+   	border: 0;
+   	font-size: 100%;
+   	font: inherit;
+   	vertical-align: baseline;
+   }
+   /* HTML5 display-role reset for older browsers */
+   article, aside, details, figcaption, figure, 
+   footer, header, hgroup, menu, nav, section {
+   	display: block;
+   }
+   body {
+   	line-height: 1;
+   }
+   ol, ul {
+   	list-style: none;
+   }
+   blockquote, q {
+   	quotes: none;
+   }
+   blockquote:before, blockquote:after,
+   q:before, q:after {
+   	content: '';
+   	content: none;
+   }
+   table {
+   	border-collapse: collapse;
+   	border-spacing: 0;
+   }
+
+   * {
+   	-webkit-box-sizing: border-box;
+   	-moz-box-sizing: border-box;
+   	box-sizing: border-box;
+   }
+   .clear {
+   	clear: both;
+   }
+   .wrapper a {
+   	text-decoration: none;
+   	color: #8AAFC0;
+   }
+
+   .cabeçalho li a :hover {
+   	color: white;
+   }
+
+
+   .primeiroquadrado {
+   	background-image: url("swiper-01.jpg");
+   	height: 609px;
+   	width: 100%;
+   	margin: 0 auto;
+   	position: relative;
+   }
+
+   .cabeçalho {
+   	background-image: url("brand.jpg.png");
+   	height: 70px;
+   	width: 155px;
+   	background-repeat: no-repeat;
+   	overflow: inherit;
+   	background-position: center center;
+   	background-size: 100%;
+   	float: left;
+   	margin: 20px 132px 20px 40px;
+   }
+   .cabeçalho ul {
+   	margin: 20px 0 20px 340px;
+   	color: #8AAFC0;
+   	float: left;
+   	width: 700px;
+   	height: 70px;
+
+   }
+   .cabeçalho li  a{
+   	float: left;
+   	width: 122px;
+   	height: 50px;
+   	margin: 0 auto;
+   	position: relative;
+   	font-size: 14px;
+   	letter-spacing: .05em;
+   	background: transparent;
+   	line-height: 32px;
+   	font-family: "Montserrat", sans-serif;
+   }
+
+   .textão h1{
+   	text-transform: uppercase;
+   	letter-spacing: .05em;
+   	font-size: 48px;
+   	width: 380px;
+   	height: 225px;
+   	text-align: justify;
+   	margin: 123px 0 0 220px;
+   	color: #fff;
+   	float: left;
+   }
+   .textão h2{
+   	text-transform: uppercase;
+   	letter-spacing: .05em;
+   	font-size: 48px;
+   	width: 380px;
+   	height: 225px;
+   	text-align: justify;
+   	color: #fff;
+   	float: left;
+   	font-family: "Merriweather Sans",sans-serif;
+   	font-size: 18px;
+   	line-height: 1.55556;
+   	margin: 120px 0 0 310px;;
+
+   }
+   .primeiroquadrado .readmore {
+   	margin: 70px 0px 0px 915px;
+
+   }
+   .primeiroquadrado .readmore h4 {
+   	margin: -10px 0px 0px 100px;
+
+   }
+   .readmore {
+   	width: 75px;
+   	height: 5px;
+   	background-color: #8AAFC0;
+   	float: left;
+
+   }
+   .readmore h4{
+   	float: left;
+   	color: #8AAFC0;
+   	font-size: 14px;
+
+   }
+   .homeumaolado .readmore {
+   	margin: 50px 140px 0px 132px;
+
+   }
+   .homeumaolado .readmore h4{
+   	margin: -10px 0px 0px 100px;
+
+   }
+
+   .segundoquadro {
+   	width: 1440px;
+   	height: 592px;
+   }
+   .segundoquadro .homeum {
+   	background-image: url("home01.jpg");
+   	width: 705px;
+   	height: 592px;
+   	background-repeat: no-repeat;
+   	background-position: center center;
+   	float: left;
+   }
+   .homeum {
+   	padding: 400px 0 0 180px;
+   	width: 184px;
+   	height: 50px;
+   	color: #8AAFC0;
+   	text-transform: uppercase;
+   	letter-spacing: .05em;
+   }
+
+   .homeum h2 {
+
+   	font-size: 30px;
+
+
+   }
+   .homeum h3 {
+   	font-size: 15px;
+
+   }
+   .homeumaolado {
+   	float: left;
+   	width: 735px;
+   	height: 592px;
+   	text-align:justify;
+
+   }
+
+   .homeumaolado  h1
+   {   margin: 142px 0 0 132px;
+   	line-height: 1.25;
+   	font-size: 48px;
+   	font-weight: bold;
+   	color: #2e2e2e;
+   }
+
+   .homeumaolado h2 {
+   	margin: 30px 140px 0px 132px;	
+   	font-family: "Merriweather Sans",sans-serif;
+   	font-size: 18px;
+   	line-height: 1.55556;
+   }
+   .homeumaolado h3 {
+   	margin: 30px 140px 0px 132px;
+   	font-family: "Merriweather Sans",sans-serif;
+   	font-size: 18px;
+   	line-height: 1.55556;
+   	color: #a1a1a1;
+   }
+   .terceiroquadro {
+   	width: 1440px;
+   	height: 584px;
+   }
+   .showa  h1 {
+   	color: #8AAFC0;
+   	text-transform: uppercase;
+   	letter-spacing: .05em;
+   	font-size: 30px;
+   	margin: 120px 0 0 110px;
+   	float:left;
+
+   }
+   .ret{
+   	width: 6px;
+   	height: 135px;
+   	background-color: #EAEAEA;
+   	float: left;
+   	margin: 120px 0 0 38px;
+   }
+   .ret2 {
+   	width: 6px;
+   	height: 135px;
+   	background-color: #EAEAEA;
+   	float: left;
+   	margin: 90px 0 0 38px;
+
+   }
+   .ladinho {
+   	float: left;
+   	width: 370px;
+   	height: 328px;
+   }
+
+   .ladinho h2 {
+   	margin: 115px 0 0 38px;
+   	font-size: 40px;
+   	font-weight: bold;
+   	color: #2e2e2e;
+   }
+
+   .ladinho p {
+   	margin: 30px 0 0 38px;
+   	font-size: 20px;
+   	color: #a1a1a1;
+   	font-weight: 400;
+   }
+
+   .showb h1 {
+   	color: #8AAFC0;
+   	text-transform: uppercase;
+   	letter-spacing: .05em;
+   	font-size: 30px;
+   	margin: 80px 0 0 110px;
+   	float:left;
+
+   }
+
+   .ladinho2 h2 {
+   	margin: 80px 0 0 38px;
+   	font-size: 40px;
+   	font-weight: bold;
+   	color: #2e2e2e;
+
+   }
+   .ladinho2 h3	 {
+   	margin: 30px 0 0 38px;
+   	font-size: 20px;
+   	color: #a1a1a1;
+   	font-weight: 400;
+   }
+   .ladinho2 {
+   	float: left;
+   	width: 400px;
+   	
+   }
+   .hover{
+   	position: absolute;
+   	top: 0;
+   	left: 0;
+   	width: 100%;
+   	height: 100%;
+   	display: none;
+   	color: white;
+   }
+   .hover .fundo {
+   	background-color: grey;
+   	opacity: 0.8;
+   	width: 100%;
+   	height: 100%;
+   	position: absolute;
+   	z-index: 1;
+   }
+   .hover  .textohover {
+   	position: relative;
+   	z-index: 2;
+
+   }
+   .hovers .fundo {
+   	background-color: grey;
+   	opacity: 0.8;
+   	width: 100%;
+   	height: 100%;
+   	position: absolute;
+   	z-index: 1;
+   }
+   .hover1 .fundo {
+   	background-color: grey;
+   	opacity: 0.8;
+   	width: 100%;
+   	height: 100%;
+   	position: absolute;
+   	z-index: 1;
+   }
+   .hover2 .fundo {
+   	background-color: grey;
+   	opacity: 0.8;
+   	width: 100%;
+   	height: 100%;
+   	position: absolute;
+   	z-index: 1;
+   }
+
+
+   .hover2  .textohover {
+   	position: relative;
+   	z-index: 2;
+
+   }
+
+   .hover1  .textohover {
+   	position: relative;
+   	z-index: 2;
+
+   }
+
+   .hovers  .textohover {
+   	position: relative;
+   	z-index: 2;
+
+   }
+
+   .hovers{
+   	position: relative;
+   	top: 0;
+   	left: 0;
+   	width: 100%;
+   	height: 100%;
+   	display: none;
+   	color: white;
+   }
+   .hover1 {
+   	position: relative;
+   	top: 0;
+   	left: 0;
+   	width: 100%;
+   	height: 100%;
+   	
+   	display: none;
+   	color: white
+
+   }
+   .hover2 {
+   	position: relative;
+   	top: 0;
+   	left: 0;
+   	width: 100%;
+   	height: 100%;
+   	background-color: grey;
+   	opacity: 0.8;
+   	display: none;
+   	color: white
+
+   }
+
+
+   .hover h1 {
+   	padding: 76px 0 0 95px;
+   	font-size: 30px;
+   }
+   .hover2 h1 {
+   	padding: 76px 0 0 95px;
+   	font-size: 30px;
+   }
+   .hover1 h1 {
+   	padding: 76px 0 0 95px;
+   	font-size: 30px;}
+
+   	.hovers h1 {
+   		padding: 76px 0 0 95px;
+   		font-size: 30px;
+   	}
+
+   	.hover h2{
+   		margin: 36px 0 0 95px;
+   		font-size: 22px;
+
+   	}
+   	.hover1 h2{
+   		margin: 36px 0 0 95px;
+   		font-size: 22px;
+
+   	}
+   	.hover2 h2{
+   		margin: 36px 0 0 95px;
+   		font-size: 22px;}
+
+   		.hovers h2{
+   			margin: 36px 0 0 95px;
+   			font-size: 22px;
+
+   		}
+   		.hover1 .readmore {
+   			margin: 26px 0 0 95px;
+   		}
+   		.hover .readmore {
+   			margin: 26px 0 0 95px;
+   		}
+   		.hovers .readmore {
+   			margin: 26px 0 0 95px;
+   		}
+   		.hover2 .readmore {
+   			margin: 26px 0 0 95px;
+   		}
+   		.hover .readmore h4
+   		{margin: -5px 0 0 95px;}
+   		.hover2 .readmore h4
+   		{margin: -5px 0 0 95px;}
+
+
+   		.hovers .readmore h4
+   		{margin: -5px 0 0 95px;}
+   		.hover1 .readmore h4
+   		{margin: -5px 0 0 95px;}
+
+
+   		.home-04:hover .hover1 {
+   			display: block;
+   		}
+   		.home-05:hover .hover2 {
+   			display: block;
+   		}
+
+   		.showimgs:hover .hover {
+   			display: block;
+   		}
+
+   		.showsimg:hover .hovers {
+   			display: block;
+   		}
+   		.showimg {
+   			float: left;
+   			width: 730px;
+   			height: 582px;
+   			margin: -328px 0 0 120px;
+
+   		}
+   		.showimgs {
+   			float: left;
+   			background-image: url("showimg.jpg");
+   			height: 584px;
+   			width: 365px;
+   			background-size: 160%;
+   			position: relative;
+
+
+   		}
+   		.showsimg {
+   			background-image: url("showsimg.jpg");
+   			height: 584px;
+   			width: 363px;
+   			background-size: 160%;
+   			float: left;
+   		}
+
+   		.quartoquadro {
+   			margin: 0;	
+   			width: 1440px;
+   			height: 584px;
+   		}
+
+   		.home-04 {
+   			float: left;
+   			background-image: url("home-04.jpg");
+   			height: 584px;
+   			width: 365px;
+   			background-size: 160%;
+
+   		}
+   		.home-05 {
+   			background-image: url("home-05.jpg");
+   			height: 584px;
+   			width: 363px;
+   			background-size: 160%;
+   			float: left;
+   		}
+   		.bigquadro {
+   			width: 1440px;
+   		}
+   		.first {
+   			
+   			width: 705px;
+   			height:500px;	
+   			background-image: url("home-06.jpg");
+   		}
+   		.firsttext h1 {
+   			padding-top: 113px;
+   			margin: 0px 120px 0 120px;
+   			line-height: 1.25;
+   			font-size: 48px;
+   			color: #8aafc0;
+   		}
+   		.firsttext h2 {
+   			margin: 52px 89px 0 120px;
+   			font-size: 18px;
+   			line-height: 1.25;
+   			color: white;
+   			font-family: "Merriweather Sans",sans-serif;
+   			line-height: 1.55556;
+   		}
+
+   		.firsttext .readmore {
+   			margin: 50px 140px 0px 120px;
+
+   			
+   		}
+   		.firsttext .readmore h4 {
+   			margin: -10px 0px 0px 100px;
+   			
+
+   		}
+
+   		.second {
+   			width: 731px;
+   			float: left;
+   			
+   		}
+   		.second h1 {
+   			
+   			margin: -450px 120px 0 120px;
+   			line-height: 1.25;
+   			font-size: 48px;
+   			color: #2E2E2E;
+   			font-weight: bold;
+
+   		}
+
+   		.second h2 {
+   			margin: 50px 160px 0 120px;
+   			font-size: 20px;
+   			color: #a1a1a1;
+   			font-weight: 400;
+   			line-height: 1.55556;
+   			text-align: justify;
+   		}
+
+   		.second h3 {
+   			margin: 50px 160px 0 120px;
+   			font-size: 18px;
+   			color: #2E2E2E;
+   			font-weight: bold;
+   			line-height: 1.55556;
+   			text-align: justify;
+   		}
+
+   		.second .reta {
+   			float: left;
+   			width: 5px;
+   			height: 300px;
+   			background-color: #EAEAEA;
+   			margin: 100px 0 0 198px;
+   		}
+   		.second ul {
+   			float: left;
+   			color: #8AAFC0;
+   			font-weight: bold;
+   			letter-spacing: .05em;
+   			font-size: 18px;
+   			line-height: 1.55556;
+   			margin: 80px 0 0 30px;
+   		}
+
+   		.second li {
+   			margin-top: 18px;
+   		}
+
+   		.third {
+   			width: 705px;
+   			height: 500px;
+   			background-image: url("home-07.jpg");
+   			background-repeat: no-repeat;
+   			float: left;
+
+   		}
+
+   		.third h1 {
+   			font-weight: bold;
+   			line-height: 1.25;
+   			color: white;
+   			font-size: 48px;
+   			margin: 130px 120px 0 120px;}
+
+   			.third h2 {
+   				font-weight: bold;
+   				line-height: 1.25;
+   				color: white;
+   				font-size: 22px;
+   				margin: 52px 89px 0 120px;
+   			}
+   			.third h3 {
+   				font-weight: bold;
+   				line-height: 1.25;
+   				color: white;
+   				font-size: 18px;
+   				margin: 30px 89px 0 120px;
+   			}
+
+   			.lastquadro {
+   				width: 1400px;
+   				height: 256px;
+
+   			}
+   			.logo {
+   				background-image: url("brand-footer.png");
+   				height: 70px;
+   				width: 155px;
+   				background-repeat: no-repeat;
+   				margin: 111px 0 0 150px;
+   				float: left;
+   			}
+
+   			.lastquadro .end h2 {
+   				line-height: 1.25;
+   				color: white;
+   				font-size: 20px;
+   				float: left;
+   				color: #A7A7A7;
+   				margin: 111px;
+
+
+   			}
+   			.lastquadro .end h3 {
+   				line-height: 1.25;
+   				color: white;
+   				font-size: 20px;
+   				float: left;
+   				color: black;
+   				font-weight: bold;
+   				margin: 111px;
+
+   				
+
+
+
+
+
